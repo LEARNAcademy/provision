@@ -8,12 +8,18 @@
 
 ### How to set up a new machine
 - Wipe clean
+- Install homebrew
+- $ brew install git
 - Clone repo to home directory
 - $ ./setup.rb
 - possibly need $ chmod +x setup.rb - will edit after testing
 - install nvm
 - install rvm
+- $ rvm install 2.7.0
 - $ gem install rails
+- $ createdb
+- cp countries.sql ~/Desktop/countries.sql
+
 
 ### How we got here
 - Create repo with a file called Brefile
