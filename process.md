@@ -10,15 +10,20 @@
 - Wipe clean
 - Install homebrew
 - $ brew install git
-- Clone repo to home directory
-- $ ./setup.rb
-- possibly need $ chmod +x setup.rb - will edit after testing
-- install nvm
-- install rvm
-- $ rvm install 2.7.0
+- Clone repo to root directory
+- $ brew bundle --file ~/provision/Brewfile
+- Store all new apps in the doc
+- Install rvm
+- $ rvm install 2.7.1 (or current ruby version)
 - $ gem install rails
+- $ brew services start postgresql
 - $ createdb
-- cp countries.sql ~/Desktop/countries.sql
+- $ cp countries.sql ~/Desktop/countries.sql
+- $ psql -c "create database countries"
+- $ psql countries < ~/Desktop/countries.sql
+- Log in to PGAdmin and create a new object, run a test query
+- Create a test React app
+- Create a test Rails app
 
 
 ### How we got here
