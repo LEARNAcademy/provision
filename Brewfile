@@ -10,7 +10,7 @@ cask 'google-chrome'
 cask 'slack'
 cask 'postman'
 cask 'atom'
-cask 'zoomus'
+cask 'zoom'
 cask 'visual-studio-code'
 cask 'pgadmin4'
 
