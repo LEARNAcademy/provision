@@ -14,8 +14,6 @@
 - $ brew bundle --file ~/provision/Brewfile
 - Store all new apps in the doc
 - Install rvm
-- $ rvm install 2.7.1 (or current ruby version)
-- $ gem install rails
 - $ brew services start postgresql
 - $ createdb
 - $ cp countries.sql ~/Desktop/countries.sql
@@ -27,6 +25,6 @@
 
 
 ### How we got here
-- Create repo with a file called Brefile
+- Create repo with a file called Brewfile
 - Add brew installs and cask installs
 - [Homebrew Brewfile docs](https://homebrew-file.readthedocs.io/en/latest/getting_started.html)
