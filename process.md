@@ -20,6 +20,13 @@
 - $ psql -c "create database countries"
 - $ psql countries < ~/Desktop/countries.sql
 - Log in to PGAdmin and create a new object, run a test query
+- mkdir ~/.nvm
+- Add to the .zshrc
+ ```
+ export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+ ```
 - Create a test React app
 - Create a test Rails app
 
