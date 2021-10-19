@@ -2,21 +2,6 @@
 
 This doc contains the instructions to install technologies used at LEARN on a new Mac.
 
-#### Apps
-- Google Chrome
-- Atom text editor
-- VS Code text editor
-- Postman
-- Slack
-- Zoom
-
-#### Technologies
-- git
-- yarn
-- rvm
-- newest Ruby version
-- Rails
-
 ### Homebrew
 [ Homebrew ](https://brew.sh/) is a package manager for Mac. It can install most apps and technologies. Homebrew will ensure proper installation processes as well as give you access to brew commands. Common commands include listing all the apps/tech as well as a single command update.
 
@@ -62,3 +47,20 @@ Should see:
 ```
 rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 ```
+
+This setup will install the following:
+
+#### Apps
+- Google Chrome
+- Atom text editor
+- VS Code text editor
+- Postman
+- Slack
+- Zoom
+
+#### Technologies
+- git
+- yarn
+- rvm
+- latest Ruby version
+- Rails
