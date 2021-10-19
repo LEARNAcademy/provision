@@ -62,7 +62,3 @@ Should see:
 ```
 rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 ```
-
-$ rvm install 2.7.1 (or latest version of Ruby)
-
-$ gem install rails
