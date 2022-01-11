@@ -12,22 +12,21 @@ This doc contains the instructions to install technologies used at LEARN on a ne
 Install Homebrew in terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 #### Applications
-- $ brew cask install google-chrome
-- $ brew cask install slack
-- $ brew cask install postman
-- $ brew cask install atom
-- $ brew cask install visual-studio-code
-- $ brew cask install zoom
-- $ brew cask install pgadmin4
+- $ `brew --cask install google-chrome`
+- $ `brew --cask install slack`
+- $ `brew --cask install postman`
+- $ `brew --cask install atom`
+- $ `brew install --cask visual-studio-code`
+- $ `brew install --cask zoom`
+- $ `brew install --cask pgadmin4`
 
 #### Technologies
-- $ brew install git
-- $ brew install yarn
-- $ brew install zsh
-- $ brew install gpg
-- $ brew install postgres
-- $ brew services start postgresql
-- $ createdb
+- $ `brew install git`
+- $ `brew install yarn`
+- $ `brew install zsh`
+- $ `brew install postgres`
+- $ `brew services start postgresql`
+- $ `createdb`
 
 ### Ruby Version Manager
 [ RVM ](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
