@@ -9,16 +9,16 @@ This doc contains the instructions to install technologies used at LEARN on a ne
 `$ brew doctor` - diagnoses any problems  
 `$ brew update` - updates all apps/tech
 
-Install Homebrew in terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+Install Homebrew in terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 #### Applications
-- $ brew cask install google-chrome
-- $ brew cask install slack
-- $ brew cask install postman
-- $ brew cask install atom
-- $ brew cask install visual-studio-code
-- $ brew cask install zoomus
-- $ brew cask install pgadmin4
+- $ `brew install --cask install google-chrome`
+- $ `brew install --cask slack`
+- $ `brew install --cask postman`
+- $ `brew install --cask atom`
+- $ `brew install --cask visual-studio-code`
+- $ `brew install --cask zoom`
+- $ `brew install --cask pgadmin4`
 
 #### Technologies
 - $ brew install git
