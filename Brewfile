@@ -17,6 +17,7 @@ cask 'pgadmin4'
 # technologies
 brew 'yarn'
 brew 'nvm'
+brew 'node'
 brew 'git'
 brew 'postgres'
 brew 'zsh'

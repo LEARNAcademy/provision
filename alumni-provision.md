@@ -3,7 +3,7 @@
 This doc contains the instructions to install technologies used at LEARN on a new Mac.
 
 ### Homebrew
-[ Homebrew ](https://brew.sh/) is a package manager for Mac. It can install most apps and technologies. Homebrew will ensure proper installation processes as well as give you access to brew commands. Common commands include listing all the apps/tech as well as a single command update.
+[Homebrew](https://brew.sh/) is a package manager for Mac. It can install most apps and technologies. Homebrew will ensure proper installation processes as well as give you access to brew commands. Common commands include listing all the apps/tech as well as a single command update.
 
 `$ brew list` - lists all apps/tech managed by Homebrew  
 `$ brew doctor` - diagnoses any problems  
@@ -26,11 +26,12 @@ Install Homebrew in terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubus
 - $ brew install zsh
 - $ brew install gpg
 - $ brew install postgres
+- $ brew install node
 - $ brew services start postgresql
 - $ createdb
 
 ### Ruby Version Manager
-[ RVM ](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
+ RVM](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
 
 `$ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
 
