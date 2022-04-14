@@ -33,7 +33,7 @@ If you have a computer with an M1 chip, the homebrew command will give you two c
 - $ createdb
 
 ### Ruby Version Manager
- RVM](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
+ [RVM](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
 
 `$ \curl -sSL https://get.rvm.io | bash -s stable --rails`
 
