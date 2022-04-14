@@ -11,6 +11,8 @@ This doc contains the instructions to install technologies used at LEARN on a ne
 
 Install Homebrew in terminal: `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+If you have a computer with an M1 chip, the homebrew command will give you two commands to run at the end of its installation.
+
 #### Applications
 - $ `brew install --cask install google-chrome`
 - $ `brew install --cask slack`
