@@ -17,7 +17,6 @@ If you have a computer with an M1 chip, the homebrew command will give you two c
 - $ `brew install --cask install google-chrome`
 - $ `brew install --cask slack`
 - $ `brew install --cask postman`
-- $ `brew install --cask atom`
 - $ `brew install --cask visual-studio-code`
 - $ `brew install --cask zoom`
 - $ `brew install --cask pgadmin4`
@@ -26,9 +25,8 @@ If you have a computer with an M1 chip, the homebrew command will give you two c
 - $ brew install git
 - $ brew install yarn
 - $ brew install zsh
-- $ brew install gpg
+- - $ brew install node
 - $ brew install postgres
-- $ brew install node
 - $ brew services start postgresql
 - $ createdb
 
@@ -53,7 +51,6 @@ This setup will install the following:
 
 #### Apps
 - Google Chrome
-- Atom text editor
 - VS Code text editor
 - Postman
 - Slack
