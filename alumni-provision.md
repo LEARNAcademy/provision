@@ -31,22 +31,22 @@ Install Homebrew in terminal: $ `/bin/bash -c "$(curl -fsSL https://raw.githubus
 
 Note: If you have a computer with an M1 chip, the homebrew command will give you two additional commands to run at the end of its installation.
 
-#### Applications
-- $ `brew install --cask install google-chrome`
-- $ `brew install --cask slack`
-- $ `brew install --cask postman`
-- $ `brew install --cask visual-studio-code`
-- $ `brew install --cask zoom`
-- $ `brew install --cask pgadmin4`
+### Application Installs
+$ `brew install --cask install google-chrome`  
+$ `brew install --cask slack`  
+$ `brew install --cask postman`  
+$ `brew install --cask visual-studio-code`  
+$ `brew install --cask zoom`  
+$ `brew install --cask pgadmin4`  
 
-#### Technologies
-- $ `brew install git`
-- $ `brew install yarn`
-- $ `brew install zsh`
-- $ `brew install node`
-- $ `brew install postgres`
-- $ `brew services start postgresql`
-- $ `createdb`
+### Technology Installs
+$ `brew install git`  
+$ `brew install yarn`  
+$ `brew install zsh`  
+$ `brew install node`  
+$ `brew install postgres`  
+$ `brew services start postgresql`  
+$ `createdb`  
 
 ### Ruby Version Manager
  [RVM](https://rvm.io/rvm/install) allows you to run multiple versions of Ruby on your machine.
@@ -57,10 +57,14 @@ This command often fails (for me) the first time. Follow the instructions in the
 
 **After installing the Ruby Version Manager CLOSE AND REOPEN TERMINAL!**
 
-To ensure rvm install properly, run:  
-$ `rvm -v`
+To ensure proper installation of rvm, run:  
+$ `rvm -v`  
 
 Should see:
 ```
 rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 ```
+
+To ensure proper installation of Ruby and Ruby on Rails, run:  
+$ `ruby -v`  
+$ `rails -v `  
