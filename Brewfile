@@ -7,18 +7,19 @@ tap 'homebrew/services'
 
 # applications
 cask 'google-chrome'
-cask 'slack'
-cask 'postman'
-cask 'atom'
-cask 'zoom'
-cask 'visual-studio-code'
 cask 'pgadmin4'
+cask 'postman'
+cask 'slack'
+cask 'zoom'
+cask 'atom'
+cask 'visual-studio-code'
+
 
 # technologies
 brew 'yarn'
 brew 'nvm'
 brew 'node'
 brew 'git'
-brew 'postgres'
+brew 'postgresql@14'
 brew 'zsh'
 brew 'gpg'
