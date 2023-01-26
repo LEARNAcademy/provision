@@ -11,7 +11,6 @@ cask 'pgadmin4'
 cask 'postman'
 cask 'slack'
 cask 'zoom'
-cask 'atom'
 cask 'visual-studio-code'
 
 
