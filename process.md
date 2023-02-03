@@ -26,7 +26,7 @@
 - install rvm
 - $ `rvm install 3.2.0`
 - $ `rvm --default use 3.2.0`
-- $ `gen update --system`
+- $ `gem update --system`
 - $ `gem install rails`
 
 ```bash
