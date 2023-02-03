@@ -10,22 +10,23 @@ This setup will install the following:
 - Postman
 - Slack
 - Zoom
+- PGAdmin
 
 #### Technologies
 - git
 - yarn
-- rvm
+- rvm - Ruby verion manager
 - latest Ruby version
 - Rails
 
 ---
 
 ### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for Mac. It can install most apps and technologies. Homebrew will ensure proper installation processes as well as give you access to brew commands. Common commands include listing all the apps/tech as well as a single command update.
+[Homebrew](https://brew.sh/) is a package manager for Mac. It can install most apps and technologies. Homebrew will ensure proper installation processes as well as give you access to brew commands. Common commands include listing all the apps and tech as well as update commands.
 
-$ `brew list` - lists all apps/tech managed by Homebrew  
+$ `brew list` - lists all apps and tech managed by Homebrew  
 $ `brew doctor` - diagnoses any problems  
-$ `brew update` - updates all apps/tech
+$ `brew update` - updates all apps and tech
 
 Install Homebrew in terminal: $ `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
@@ -44,7 +45,7 @@ $ `brew install git`
 $ `brew install yarn`  
 $ `brew install zsh`  
 $ `brew install node`  
-$ `brew install postgres`  
+$ `brew install postgresql@14`  
 $ `brew services start postgresql`  
 $ `createdb`  
 
@@ -68,3 +69,11 @@ rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://
 To ensure proper installation of Ruby and Ruby on Rails, run:  
 $ `ruby -v`  
 $ `rails -v `  
+
+### Specifying a global Ruby version
+If you want a ruby version for your whole computer that is different than the default version installed by rvm use the following commands:
+- install rvm
+- $ `rvm install 3.2.0`
+- $ `rvm --default use 3.2.0`
+- $ `gen update --system`
+- $ `gem install rails`
