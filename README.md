@@ -6,6 +6,7 @@ Updated: March 2023
 
 - Brewfile with all the technologies that can be installed with homebrew and applications that can be installed with brew cask on a new machine
 - Countries database for PostgreSQL challenges
+- [Alumni provision instructions](./alumni-provision.md)
 
 ### How to set up a new machine
 
