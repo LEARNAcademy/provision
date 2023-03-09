@@ -10,15 +10,16 @@ cask 'google-chrome'
 cask 'pgadmin4'
 cask 'postman'
 cask 'slack'
-cask 'zoom'
 cask 'visual-studio-code'
+cask 'zoom'
+
 
 
 # technologies
-brew 'yarn'
-brew 'nvm'
-brew 'node'
 brew 'git'
-brew 'postgresql@14'
-brew 'zsh'
 brew 'gpg'
+brew 'node'
+brew 'nvm'
+brew 'postgresql@14'
+brew 'yarn'
+brew 'zsh'
