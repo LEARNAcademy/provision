@@ -1,6 +1,6 @@
 # Provisioning LEARN Machines
 
-Updated: March 2023
+Updated: January 2024
 
 ### What is in this repo
 
@@ -19,6 +19,7 @@ Updated: March 2023
 - install rvm
 
 ```bash
+cd provision
 brew services start postgresql; createdb; cp countries.sql ~/Desktop/countries.sql; psql -c "create database countries"; psql countries < ~/Desktop/countries.sql
 ```
 
@@ -33,6 +34,9 @@ brew services start postgresql; createdb; cp countries.sql ~/Desktop/countries.s
 - $ `rvm --default use 3.2.0`
 - $ `gem update --system`
 - $ `gem install rails`
+
+### Troubleshooting
+- Error on RVM install: error running __rvm_make j8 rvm, use `rvm install ruby-3.2.0 --with-openssl-dir=/usr/local/opt/openssl`
 
 ### Docs
 
