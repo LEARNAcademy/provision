@@ -39,7 +39,7 @@ Note: If you have a computer with an M1 chip, the homebrew command will give you
 
 ### Application Installs
 
-$ `brew install --cask install google-chrome`  
+$ `brew install --cask google-chrome`  
 $ `brew install --cask slack`  
 $ `brew install --cask postman`  
 $ `brew install --cask visual-studio-code`  
